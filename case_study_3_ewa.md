@@ -6,81 +6,81 @@ Ecommerce Web Application
 
 Contents
 
-[1.     Introduction. 4](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697192)
+1.     Introduction
 
-[1.1        Overview. 4](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697193)
+1.1        Overview
 
-[1.2        Definitions and Acronyms. 4](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697194)
+1.2        Definitions and Acronyms
 
-[2.     Home Page. 5](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697195)
+2.     Home Page
 
-[2.1        General Area. 5](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697196)
+2.1        General Area
 
-[2.2        Search Facility. 5](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697197)
+2.2        Search Facility
 
-[2.3        Login Section. 5](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697198)
+2.3        Login Section
 
-[2.4        User Registration Section. 5](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697199)
+2.4        User Registration Section
 
-[2.4.1     Buyer Registration. 5](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697200)
+2.4.1     Buyer Registration
 
-[2.4.2     Seller Registration. 6](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697201)
+2.4.2     Seller Registration
 
-[2.5        General Help. 6](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697202)
+2.5        General Help
 
-[3.     Buyers Area. 7](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697203)
+3.     Buyers Area
 
-[3.1        Buyers Home-Page. 7](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697204)
+3.1        Buyers Home-Page
 
-[3.2        View Items page. 7](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697205)
+3.2        View Items page
 
-[3.3        Search Items. 7](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697206)
+3.3        Search Items
 
-[3.4        Bid for an Item.. 7](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697207)
+3.4        Bid for an Item
 
-[3.5        My Current Bids page. 8](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697208)
+3.5        My Current Bids page
 
-[3.6        Buy an Item.. 8](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697209)
+3.6        Buy an Item
 
-[3.7        Compare Prices. 9](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697210)
+3.7        Compare Prices
 
-[3.8        View Past Transactions. 9](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697211)
+3.8        View Past Transactions
 
-[3.9        Watch an Item.. 9](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697212)
+3.9        Watch an Item
 
-[3.10      My Watch List page. 9](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697213)
+3.10      My Watch List page
 
-[4.     Sellers Area. 10](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697214)
+4.     Sellers Area
 
-[4.1        Setup a Shop. 10](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697215)
+4.1        Setup a Shop
 
-[4.2        Add/Edit Items to Shop. 10](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697216)
+4.2        Add/Edit Items to Shop
 
-[4.3        Setup Bids. 10](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697217)
+4.3        Setup Bids
 
-[4.4        View Status of Items on Sale page. 10](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697218)
+4.4        View Status of Items on Sale page
 
-[4.5        Dispatch Items. 11](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697219)
+4.5        Dispatch Items
 
-[4.6        Update Item Stock page. 11](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697220)
+4.6        Update Item Stock page
 
-[4.7        View Past Transactions. 11](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697221)
+4.7        View Past Transactions
 
-[4.8        Pay to bidorbuy.com.. 12](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697222)
+4.8        Pay to bidorbuy.com
 
-[6.     Administrators Section. 13](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697223)
+6.     Administrators Section
 
-[6.1        Set Seller Status. 13](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697224)
+6.1        Set Seller Status
 
-[6.2        View Transaction History. 13](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697225)
+6.2        View Transaction History
 
-[6.3        View Default Rent Payments. 13](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697226)
+6.3        View Default Rent Payments
 
-[7.    Additional Information. 14](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697227)
+7.    Additional Information
 
-[7.1        Payment Options. 14](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697228)
+7.1        Payment Options
 
-[8.     Special Considerations. 14](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697229)
+8.     Special Considerations
 
 # 1.         Introduction
 
@@ -705,4 +705,5 @@ Following important requirements will also have to be considered:
 ·       Should be able to handle heavy traffic load
 
 ·       Should interface with internal systems
+
 
