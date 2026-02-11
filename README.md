@@ -10,7 +10,7 @@ This case study describes the design and functionality of an e‑commerce platfo
 *   **Sellers** – External users who set up shops, list items, manage auctions.
 *   **Administrators** – Internal users who manage seller status, payments, and transactions.
 
-The system includes complete workflows for **registration**, **bidding**, **buying**, **payment**, **shipping**, **inventory updates**, and **administrative oversight**. [\[Case-Study...pplication | Word\]](https://cognizantonline-my.sharepoint.com/personal/2371402_cognizant_com/_layouts/15/Doc.aspx?sourcedoc=%7B22B12024-B9B3-46FF-889B-83E9AF81F708%7D&file=Case-Study-Ecommerce-Web-Application.doc&action=default&mobileredirect=true)
+The system includes complete workflows for **registration**, **bidding**, **buying**, **payment**, **shipping**, **inventory updates**, and **administrative oversight**.
 
 * * *
 
@@ -24,7 +24,7 @@ The home page acts as a discovery layer:
 *   **Login required** to transact (buy/bid).
 *   Search functionalities:
     *   Basic search (items/sellers)
-    *   Advanced search (category, price, condition, seller location, bid format) [\[Case-Study...pplication | Word\]](https://cognizantonline-my.sharepoint.com/personal/2371402_cognizant_com/_layouts/15/Doc.aspx?sourcedoc=%7B22B12024-B9B3-46FF-889B-83E9AF81F708%7D&file=Case-Study-Ecommerce-Web-Application.doc&action=default&mobileredirect=true)
+    *   Advanced search (category, price, condition, seller location, bid format) 
 
 * * *
 
@@ -97,8 +97,7 @@ View sold/unsold items, bids, selling price, payment status, buyer details, disp
 
 ### 🧾 Seller Transactions
 
-Complete list of past sales and payment methods used.  
-[\[Case-Study...pplication | Word\]](https://cognizantonline-my.sharepoint.com/personal/2371402_cognizant_com/_layouts/15/Doc.aspx?sourcedoc=%7B22B12024-B9B3-46FF-889B-83E9AF81F708%7D&file=Case-Study-Ecommerce-Web-Application.doc&action=default&mobileredirect=true)
+Complete list of past sales and payment methods used. 
 
 * * *
 
@@ -116,9 +115,7 @@ Admins manage operational oversight:
 
 ### ⚠️ Rent Defaulters
 
-*   View sellers who defaulted on rent payments.  
-    [\[Case-Study...pplication | Word\]](https://cognizantonline-my.sharepoint.com/personal/2371402_cognizant_com/_layouts/15/Doc.aspx?sourcedoc=%7B22B12024-B9B3-46FF-889B-83E9AF81F708%7D&file=Case-Study-Ecommerce-Web-Application.doc&action=default&mobileredirect=true)
-
+*   View sellers who defaulted on rent payments. 
 * * *
 
 ## 💳 5. Payment Options
@@ -130,8 +127,7 @@ The platform supports multiple payment modes:
 *   **Demand Draft (DD)**
 *   **Cheque Payment**
 
-Sellers dispatch items only after DD/cheque is encashed.  
-[\[Case-Study...pplication | Word\]](https://cognizantonline-my.sharepoint.com/personal/2371402_cognizant_com/_layouts/15/Doc.aspx?sourcedoc=%7B22B12024-B9B3-46FF-889B-83E9AF81F708%7D&file=Case-Study-Ecommerce-Web-Application.doc&action=default&mobileredirect=true)
+Sellers dispatch items only after DD/cheque is encashed.
 
 * * *
 
@@ -145,7 +141,6 @@ The system design must ensure:
 *   24×7 availability
 *   Support for high traffic
 *   Seamless integration with internal systems  
-    [\[Case-Study...pplication | Word\]](https://cognizantonline-my.sharepoint.com/personal/2371402_cognizant_com/_layouts/15/Doc.aspx?sourcedoc=%7B22B12024-B9B3-46FF-889B-83E9AF81F708%7D&file=Case-Study-Ecommerce-Web-Application.doc&action=default&mobileredirect=true)
 
 * * *
 
@@ -168,25 +163,14 @@ Each is written in Markdown with Mermaid diagrams for GitHub rendering.
 
 While not specified in the uploaded case study, the architecture aligns well with:
 
-*   **Backend**: Java/Spring Boot, .NET Core, Node.js
+*   **Backend**: .NET Core/ASP.Net, Node.js
 *   **Frontend**: React, Angular, or Vue
-*   **Database**: PostgreSQL / MongoDB per microservice
+*   **Database**: SQL/ PostgreSQL / MongoDB per microservice
 *   **Containerization**: Docker + Kubernetes
 *   **Messaging/Eventing**: Kafka or RabbitMQ
 *   **Payment Integration**: PayPal API, Stripe
 *   **Search**: Elasticsearch or OpenSearch
-
 * * *
-
-## 🚀 9. How to Use This Repository
-
-*   Browse the `/docs` folder for architecture assets.
-*   Open `.md` files directly in GitHub to view Mermaid diagrams.
-*   Use this documentation as a reference for:
-    *   System Design Interviews
-    *   Architecture Blueprinting
-    *   Academic Submissions
-    *   Solutioning for real-world e‑commerce systems
 
 ## 📂 Project Folder Structure - Navigation
 
@@ -234,4 +218,5 @@ While not specified in the uploaded case study, the architecture aligns well wit
 ---
 ## 🙌 Author  
 - Manish Kumar Dubey 
+
 
