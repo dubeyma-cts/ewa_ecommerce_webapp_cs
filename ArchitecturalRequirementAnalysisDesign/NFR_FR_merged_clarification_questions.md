@@ -1,6 +1,6 @@
 # Merged Clarification Questions
 
-## Functional Clarification Questions
+## Functional
 
 | Use-Case ID   | Requirement Area    | Question                                            | Response (Example)                                                                             | Stakeholder   | Status   |
 |:--------------|:--------------------|:----------------------------------------------------|:-----------------------------------------------------------------------------------------------|:--------------|:---------|
@@ -68,7 +68,7 @@
 | UC21          | Rent Defaulters     | Escalation workflow needed?                         | Yes; 3‑level escalation: reminder → warning → suspension candidate.                            | Product Owner | Open     |
 | UC21          | Rent Defaulters     | Should financial penalties apply?                   | Not in BRD; exclude for MVP.                                                                   | Product Owner | Open     |
 
-## NFR Clarification Questions
+## NFR
 
 | Use-Case ID   | Requirement Area   | Question                                                        | Response (Example)                                                         | Stakeholder                        | Status   |
 |:--------------|:-------------------|:----------------------------------------------------------------|:---------------------------------------------------------------------------|:-----------------------------------|:---------|
