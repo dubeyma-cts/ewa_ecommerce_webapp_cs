@@ -2,8 +2,6 @@ Business Requirements Document (BRD)
 Ecommerce Web Application
 
 _Prepared for: Business & Technology Stakeholders  
-Prepared by: M365 Copilot  
-Date: 11 Feb 2026_
 
 Note: Update fields to refresh Table of Contents after opening in Word.
 
