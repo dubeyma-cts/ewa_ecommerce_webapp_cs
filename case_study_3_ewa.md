@@ -76,13 +76,11 @@ Contents
 
 [6.3        View Default Rent Payments. 13](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697226)
 
-[7.     Additional Information. 14](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697227)
+[7.    Additional Information. 14](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697227)
 
 [7.1        Payment Options. 14](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697228)
 
 [8.     Special Considerations. 14](file:///C:/Drive_Self/ADM%20Upgrade2Architect'25/Upgrade@Architect_Training_External/Case-Studies/Case-Study-Ecommerce-Web-Application.doc#_Toc268697229)
-
-  
 
 # 1.         Introduction
 
@@ -707,3 +705,4 @@ Following important requirements will also have to be considered:
 ·       Should be able to handle heavy traffic load
 
 ·       Should interface with internal systems
+
