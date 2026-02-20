@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KU9yIh+6b/U=",
+  "success": true,
+  "projectFilePath": "C:\\dev\\repo\\ewa_ecommerce_webapp_cs\\src\\Identity.API\\Identity.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\152170\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\152170\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\152170\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\152170\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}
