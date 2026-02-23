@@ -1,0 +1,26 @@
+meta {
+  name: Buyer login
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:5100/api/auth/login
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "username": "buyer1",
+    "password": "pass123"
+  }
+}
+
+settings {
+  encodeUrl: false
+}

@@ -1,0 +1,56 @@
+@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login — BidOrBuy</title>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body class="login-body">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <h1>🛒 BidOrBuy</h1>
+                <p>Sign in to your account</p>
+            </div>
+
+            @if (!string.IsNullOrEmpty(Model.ErrorMessage))
+            {
+                <div class="alert alert-error">@Model.ErrorMessage</div>
+            }
+
+            <form method="post">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" asp-for="Username"
+                           placeholder="Enter your username" autocomplete="username" required />
+                    <span asp-validation-for="Username" class="field-error"></span>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" asp-for="Password"
+                           placeholder="Enter your password" autocomplete="current-password" required />
+                    <span asp-validation-for="Password" class="field-error"></span>
+                </div>
+                <button type="submit" class="btn-login">Sign In</button>
+            </form>
+
+            <div class="demo-credentials">
+                <p><strong>Demo Credentials</strong></p>
+                <table>
+                    <tr><th>Role</th><th>Username</th><th>Password</th></tr>
+                    <tr><td>Buyer</td><td>buyer1</td><td>pass123</td></tr>
+                    <tr><td>Seller</td><td>seller1</td><td>pass123</td></tr>
+                    <tr><td>Admin</td><td>admin1</td><td>pass123</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

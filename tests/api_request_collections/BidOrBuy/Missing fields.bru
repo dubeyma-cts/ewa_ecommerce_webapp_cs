@@ -1,0 +1,26 @@
+meta {
+  name: Missing fields
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:5100/api/auth/login
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "username": "",
+    "password": ""
+  }
+}
+
+settings {
+  encodeUrl: false
+}

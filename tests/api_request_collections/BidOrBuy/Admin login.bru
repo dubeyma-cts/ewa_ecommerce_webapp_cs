@@ -1,0 +1,26 @@
+meta {
+  name: Admin login
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5100/api/auth/login
+  body: json
+  auth: inherit
+}
+
+headers {
+  Content-Type: application/json
+}
+
+body:json {
+  {
+    "username": "admin1",
+    "password": "pass123"
+  }
+}
+
+settings {
+  encodeUrl: false
+}

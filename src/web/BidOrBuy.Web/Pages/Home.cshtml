@@ -1,0 +1,109 @@
+@page
+@model HomeModel
+@{
+    ViewData["Title"] = "Home";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home — BidOrBuy</title>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body class="home-body">
+
+    <!-- Top Navigation -->
+    <nav class="navbar">
+        <div class="navbar-brand">🛒 BidOrBuy</div>
+        <div class="navbar-user">
+            <span class="role-badge role-@Model.Role.ToLower()">@Model.Role</span>
+            <span>Welcome, <strong>@Model.FullName</strong></span>
+            <form method="post" asp-page-handler="Logout" style="display:inline">
+                <button type="submit" class="btn-logout">Sign Out</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <div class="hero">
+        <h2>Bid. Buy. Win.</h2>
+        <p>Discover thousands of items across 13 categories.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Search items or sellers..." />
+            <button>Search</button>
+        </div>
+    </div>
+
+    <!-- Featured Categories -->
+    <main class="container">
+        <h3 class="section-title">Browse Categories</h3>
+        <div class="category-grid">
+            @foreach (var cat in Model.Categories)
+            {
+                <div class="category-card">
+                    <span class="cat-icon">@cat.Icon</span>
+                    <span class="cat-name">@cat.Name</span>
+                </div>
+            }
+        </div>
+
+        <!-- Top 5 Items -->
+        <h3 class="section-title">🔥 Top Selling Items</h3>
+        <div class="product-grid">
+            @foreach (var item in Model.TopItems)
+            {
+                <div class="product-card">
+                    <div class="product-img">@item.Emoji</div>
+                    <div class="product-info">
+                        <p class="product-name">@item.Name</p>
+                        <p class="product-price">$@item.Price.ToString("F2")</p>
+                        <span class="product-tag">@item.Tag</span>
+                        @if (Model.Role == "Buyer")
+                        {
+                            <button class="btn-buy">Buy Now</button>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- Role-specific panel -->
+        @if (Model.Role == "Seller")
+        {
+            <div class="info-panel panel-seller">
+                <h4>Seller Dashboard</h4>
+                <p>Manage your shop, add new items, and track your sales.</p>
+                <button class="btn-action">My Shop</button>
+                <button class="btn-action">Add Item</button>
+                <button class="btn-action">View Sales</button>
+            </div>
+        }
+        @if (Model.Role == "Admin")
+        {
+            <div class="info-panel panel-admin">
+                <h4>Admin Controls</h4>
+                <p>Manage sellers, monitor transactions, and oversee the platform.</p>
+                <button class="btn-action">Set Seller Status</button>
+                <button class="btn-action">Transaction History</button>
+                <button class="btn-action">Rent Payments</button>
+            </div>
+        }
+        @if (Model.Role == "Buyer")
+        {
+            <div class="info-panel panel-buyer">
+                <h4>My Activity</h4>
+                <p>Track your bids, purchases, and watch list all in one place.</p>
+                <button class="btn-action">My Bids</button>
+                <button class="btn-action">Watch List</button>
+                <button class="btn-action">Order History</button>
+            </div>
+        }
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 BidOrBuy — POC Demo | Logged in as <strong>@Model.Email</strong></p>
+    </footer>
+</body>
+</html>
