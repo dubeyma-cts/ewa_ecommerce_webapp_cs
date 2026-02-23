@@ -3,11 +3,22 @@
 
 **Project:** BidOrBuy E-Commerce Platform  
 **Architecture:** Microservices with .NET 8.0 / C# and Azure Cloud Services  
-**Last Updated:** February 18, 2026
+**Last Updated:** February 23, 2026
+
+---
+
+> ## ⚠️ CURRENT MODE: PROOF OF CONCEPT (POC)
+>
+> **All code generated under these instructions is for DEMO and POC purposes only.**
+> Hardcoded reference data, in-memory test data, and simplified implementations are intentional and expected.
+> Do NOT generate production patterns (real databases, cloud services, secrets management, etc.) until the mode is explicitly changed to Production.
+>
+> See **[Section 0 — POC Mode & Code Generation Rules](#0-poc-mode--code-generation-rules)** before writing any code.
 
 ---
 
 ## Table of Contents
+0. [POC Mode & Code Generation Rules](#0-poc-mode--code-generation-rules)
 1. [Project Overview](#project-overview)
 2. [System Requirements](#system-requirements)
 3. [Architecture Principles](#architecture-principles)
@@ -18,6 +29,94 @@
 8. [Testing Strategy](#testing-strategy)
 9. [Deployment & DevOps](#deployment--devops)
 10. [Team Collaboration](#team-collaboration)
+
+---
+
+## 0. POC Mode & Code Generation Rules
+
+> ### 🚨 READ THIS BEFORE GENERATING ANY CODE
+>
+> These instructions are currently operating in **Proof of Concept (POC) / Demo mode**.
+> Anyone — human or AI agent — generating code from this document **must follow the rules in this section**.
+> When the project transitions to production, this section will be updated and these rules will be superseded.
+
+---
+
+### 0.1 What POC Mode Means
+
+This codebase is a **structured demonstration** of the BidOrBuy microservices architecture.
+The goal is to show working, runnable features for demo and learning purposes — **not** to build a production-grade system.
+
+The following table defines what is expected in POC mode versus what will be required in production:
+
+| Concern | POC Mode (NOW) | Production Mode (FUTURE) |
+|---|---|---|
+| **Data storage** | Hardcoded in-memory lists | Azure SQL / Cosmos DB |
+| **Authentication** | Hardcoded users, demo tokens | Azure AD B2C, JWT with signing keys |
+| **Secrets** | None required | Azure Key Vault |
+| **Messaging** | Not required | Azure Service Bus |
+| **Configuration** | `appsettings.json` | Azure App Config + Key Vault references |
+| **Logging** | Console / minimal | Serilog + Application Insights |
+| **Error handling** | Basic HTTP status codes | RFC 7807 Problem Details + global middleware |
+| **Tests** | Manual / Bruno / curl | xUnit + integration tests (80%+ coverage) |
+| **Deployment** | `dotnet run` locally | AKS + CI/CD pipelines |
+| **CORS** | `AllowAll` policy | Restricted origins |
+
+---
+
+### 0.2 Code Generation Rules for POC Mode
+
+When generating code **in POC mode**, the agent **MUST**:
+
+1. **Use hardcoded in-memory data** — no database, no ORM, no migrations.
+   - Reference/test data is defined directly in the service class or controller as `static readonly` lists or dictionaries.
+   - Clearly comment the data as `// Hardcoded demo data — POC only, not for production`.
+
+2. **Keep implementations minimal** — only the code required to make the demo work.
+   - No Saga orchestration, no event publishing, no circuit breakers in POC mode.
+   - No elaborate layering: a single controller with inline logic is acceptable for a POC endpoint.
+
+3. **Harden nothing** — no password hashing, no token signing, no MFA, no rate limiting.
+   - POC tokens are plain strings (e.g. `"demo-token-{guid}"`).
+
+4. **Only touch the relevant microservice** — do not modify other services unless the feature explicitly spans them.
+
+5. **Use session or simple in-memory state** for the web app — no distributed cache, no cookie encryption, no auth middleware.
+
+6. **Add a POC disclaimer comment** at the top of every new file created in POC mode:
+   ```csharp
+   // ============================================================
+   // POC / DEMO CODE — NOT FOR PRODUCTION USE
+   // Data is hardcoded. See AGENT_INSTRUCTIONS.md §0 for rules.
+   // ============================================================
+   ```
+
+7. **Do not generate** the following in POC mode (raise a warning if asked):
+   - Real database connection strings or EF Core `DbContext`
+   - Azure SDK integrations (Service Bus, Key Vault, Blob Storage, etc.)
+   - Real JWT signing/validation logic
+   - Docker / Kubernetes manifests
+   - CI/CD pipeline files
+
+---
+
+### 0.3 Informing Users
+
+**Any agent generating code under these instructions must prefix its response with the following notice** when producing POC code:
+
+> 📋 **POC Mode Active** — Code generated below follows the Proof of Concept rules in `AGENT_INSTRUCTIONS.md §0`.
+> All data is hardcoded for demo purposes. This is **not production-ready code**.
+
+---
+
+### 0.4 Transitioning Out of POC Mode
+
+When the team decides to move to production implementation:
+
+1. Update the banner at the top of this file and this section heading to `PRODUCTION MODE`.
+2. Remove the POC disclaimer from the TOC.
+3. Replace this section with a link to the production architecture ADRs.
+4. All previously generated POC files must be reviewed, replaced, or removed before any production deployment.
 
 ---
 
@@ -1171,6 +1270,7 @@ Catalog.Tests/            # Test projects
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | 2026-02-18 | AI Agent | Initial version with complete microservices plan |
+| 1.1 | 2026-02-23 | AI Agent | Added Section 0 — POC Mode & Code Generation Rules; updated TOC and header banner |
 
 ---
 

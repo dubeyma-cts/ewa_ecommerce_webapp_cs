@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\repo\\ewa_ecommerce_webapp_cs\\src\\Catalog.API\\Catalog.API.csproj",
+      "projectUniqueName": "C:\\dev\\repo\\ewa_ecommerce_webapp_cs\\src\\services\\Catalog.API\\Catalog.API.csproj",
       "projectName": "Catalog.API",
-      "projectPath": "C:\\dev\\repo\\ewa_ecommerce_webapp_cs\\src\\Catalog.API\\Catalog.API.csproj",
+      "projectPath": "C:\\dev\\repo\\ewa_ecommerce_webapp_cs\\src\\services\\Catalog.API\\Catalog.API.csproj",
       "packagesPath": "C:\\Users\\152170\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\repo\\ewa_ecommerce_webapp_cs\\src\\Catalog.API\\obj\\",
+      "outputPath": "C:\\dev\\repo\\ewa_ecommerce_webapp_cs\\src\\services\\Catalog.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\152170\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,19 +63,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.24, 8.0.24]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.24, 8.0.24]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.24, 8.0.24]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.22, 8.0.22]"
+            "version": "[8.0.24, 8.0.24]"
           }
         ],
         "frameworkReferences": {
@@ -86,7 +86,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
